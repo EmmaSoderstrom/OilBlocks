@@ -26,7 +26,7 @@ public class Ball extends ImageView {
 
     public boolean notCollision;
 
-
+    
 
     public Ball(Context context){
         super(context);
