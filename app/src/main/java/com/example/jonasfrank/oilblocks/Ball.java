@@ -26,9 +26,7 @@ public class Ball extends ImageView {
 
     public boolean notCollision;
 
-
-
-
+    
 
     public Ball(Context context){
         super(context);
@@ -98,7 +96,6 @@ public class Ball extends ImageView {
             moveX = moveX * -1;
 
             Log.d("tag", "ball krok kant" );
-
 
         }
         else if (y + moveY > screenWidth - blockSize || y + moveY < 0 ) {
